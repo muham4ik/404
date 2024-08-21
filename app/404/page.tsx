@@ -14,8 +14,8 @@ const Page = () => {
     <div className='max-w-6xl w-full mx-auto px-4'>
        <div className='h-screen flex justify-center items-center gap-[30px] bg-[#000000]'>
       <div className='text-center'>
-        <h1 className='text-4xl font-bold'>4 0 4</h1>
-        <p className='text-lg mt-4'>This page could not be found.</p>
+        <h1 className='text-4xl font-bold text-[#FFFFFF]'>4 0 4</h1>
+        <p className='text-lg mt-4 text-[#FFFFFF]'>This page could not be found.</p>
         <ul className='mt-[50px]'>
         <button
             onClick={gotoPage}
