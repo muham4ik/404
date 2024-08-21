@@ -11,7 +11,8 @@ const Page = () => {
   }
 
   return (
-    <div className='max-w-6xl w-full mx-auto px-4'>
+    <div className="main p-0 m-0 bg-black">
+         <div className='max-w-6xl w-full mx-auto px-4'>
        <div className='h-screen flex justify-center items-center gap-[30px] bg-[#000000]'>
       <div className='text-center'>
         <h1 className='text-4xl font-bold text-[#FFFFFF]'>4 0 4</h1>
@@ -45,6 +46,8 @@ const Page = () => {
       </div>
     </div>
     </div>
+    </div>
+   
   );
 }
 
